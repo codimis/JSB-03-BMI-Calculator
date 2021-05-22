@@ -32,7 +32,7 @@ let youAre;
 
 const valueIs = function (BMIValue) {  
   if (BMIValue < 18.5) {
-    youAre = "extremly weak"
+    youAre = "extremely weak"
     changeDesign("#E99A9A");
   } else if (24.9 > BMIValue && BMIValue> 18) {
     youAre = "normal"

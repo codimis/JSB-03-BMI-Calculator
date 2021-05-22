@@ -1,4 +1,4 @@
-/* Declaritons */
+/* Definitions */
 
 const calculateButton = document.querySelector("#calculate-button");
 const resultText = document.querySelector("#result-text");
@@ -13,7 +13,7 @@ Below 18.5	Underweight
 
 */
 
-/* Expression to Functions */
+/* Function Expressions */
 
 const changeDesign = function(color){
   document.body.style.backgroundColor = color;
@@ -27,9 +27,10 @@ const calculateBMI = function (heightValue, weightValue) {
   const result = weight / squareHeight;
   return result;
 };
+
 let youAre;
-const valueIs = function (BMIValue) {
-  
+
+const valueIs = function (BMIValue) {  
   if (BMIValue < 18.5) {
     youAre = "extremly weak"
     changeDesign("#E99A9A");

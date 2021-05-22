@@ -9,20 +9,27 @@
     <title>BMI Calculator</title>
 </head>
 <body>
-    <section>
+    <section id="calcuate-container">
         <div class="big-container">
-            <img src="vector.svg" alt="BMI Vector" style="width: 300px;">
+            <img src="src/vector.svg" alt="BMI Vector" style="width: 300px;">
             <p id="title">BMI Calculator</p>
             <div class="input-group">
                 <p>Height</p>
                 <input type="text" id="height-input">
-                <p>weight</p>
+                <p>Weight</p>
                 <input type="text" id="weight-input">
             </div>
             
-            <button id="calculate-button">Hesapla</button>
-        </div>        
+            <button id="calculate-button">Calculate</button>
+
+            <p id="result-text"></p>
+        </div>     
     </section>
+    <footer>
+        <div id="footer-container">
+            <p>Design by Gizem @codimis</p>
+        </div>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>

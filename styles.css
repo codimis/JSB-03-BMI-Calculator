@@ -5,6 +5,9 @@
 ::selection{
     background-color: var(--purple);
 }
+input:focus{
+    outline: none;
+}
 body{
     font-family: 'Ubuntu';
     background-color: white;

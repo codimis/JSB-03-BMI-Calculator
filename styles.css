@@ -1,0 +1,71 @@
+:root {
+  --purple: #a100ff;
+  --darkgray: #3e3e3e;
+}
+::selection {
+  background-color: var(--purple);
+}
+input:focus {
+  outline: none;
+}
+body {
+  font-family: "Ubuntu";
+  background-image: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7%;
+}
+#title {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: purple;
+  padding: 10px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.input-group input {
+  min-width: 250px;
+  height: 35px;
+  margin: 10px;
+  padding-left: 25px;
+  background-color: white;
+  border: 2px solid var(--purple);
+  border-radius: 20px;
+}
+.input-group input:hover {
+  border: 2px solid black;
+}
+.input-group p {
+  color: purple;
+  padding-left: 7%;
+  text-transform: lowercase;
+  margin: 2px;
+}
+#calculate-button {
+  min-width: 150px;
+  height: 40px;
+  margin: 10px;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+#calculate-button:hover {
+  border: 3px solid var(--purple);
+  background-color: white;
+  color: var(--purple);
+}
+#result {
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <section id="calcuate-container">
+        <div class="big-container">
+            <img src="src/bmi.png" alt="BMI Vector" style="width: 300px;">
+            <p id="title">BMI Calculator</p>
+            <div class="input-group">
+                <p>Height (cm)</p>
+                <input type="text" id="height-input" placeholder="Sample: 177">
+                <p>Weight (kg)</p>
+                <input type="text" id="weight-input" placeholder="Sample: 72">
+            </div>
+            
+            <button id="calculate-button" onclick="calculatorBMI();">Calculate</button>
+
+            <p id="result-text"></p>
+        </div>     
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

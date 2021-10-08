@@ -22,17 +22,4 @@ if(0<=bmi && bmi<18.5){
      }
      else
     alert('Please enter the valid value');
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

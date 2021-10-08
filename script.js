@@ -10,7 +10,6 @@ document.getElementById("calculate-button").addEventListener("click", calculator
 
 if(0<=bmi && bmi<18.5){
     alert('Underweight');
-    result = ""
      }else if(18.5<=bmi && bmi<=24.9){
     alert('Healthy');
      }else if(25<=bmi && bmi<=29.9){
@@ -19,7 +18,6 @@ if(0<=bmi && bmi<18.5){
     alert('Obese');
      }else if(35<=bmi){
     alert('Extremely obese');
-     }
-     else
+     }else
     alert('Please enter the valid value');
 }
